@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Attendance Portal by Abdul Rasheed</h1>
+    </header>
+    <main>
+        <div class="detail">
+            <div class="data" id="tpresent">
+                <span class="totalData">Total Present</span>
+                <span id="totalPresent"></span>
+            </div>
+            <div class="data" id="tabsent">
+                <span class="totalData">Total Absent</span>
+                <span id="totalAbsent"></span>
+            </div>
+            <div class="data" id="tleave"><span class="totalData">Total Leave</span>
+                <span id="totalLeave"></span>
+            </div>
+            <div class="data"  id="tstudent"><span class="totalData">Total Students</span>
+                <span id="totalStudents"></span>
+            </div>
+        </div>
+        <div class="employees">
+            <table id="employeesData">
+                <tr>
+                    <th rowspan="2">S.No</th>
+                    <th rowspan="2">Student Name</th>
+                    <th rowspan="2">Father Name</th>
+                    <th rowspan="2">Age</th>
+                    <th rowspan="2">Roll No</th>
+                    <th rowspan="2">Class</th>
+                    <th colspan="3">Status</th>
+                </tr>
+                <tr>
+                    <th>Present</th>
+                    <th>Absent</th>
+                    <th>Leave</th>
+                </tr>
+                <tr>
+            </table>
+            <div id="dialogBox">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
